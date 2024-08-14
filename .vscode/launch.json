@@ -2,16 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         
+        
         {
             "name": "(gdb) Iniciar",
             "type": "cppdbg",
             "request": "launch",
             "program": "insira o nome do programa, por exemplo ${workspaceFolder}/a.exe",
             "args": [],
-            "stopAtEntry": false,
+            "stopAtEntry": true,
             "cwd": "${fileDirname}",
             "environment": [],
-            "externalConsole": false,
+            "externalConsole": true,
             "MIMode": "gdb",
             "miDebuggerPath": "/path/to/gdb",
             "setupCommands": [

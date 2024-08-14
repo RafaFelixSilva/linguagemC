@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 float variavelGlobal;
 const int constante = 42;
